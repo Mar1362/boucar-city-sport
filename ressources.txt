@@ -1,0 +1,25 @@
+les ressources du site tel que les images ne sont pas telechargés, on fait juste un lien vers le serveur du site directement
+
+
+[image du haut: bannier]: http://www.citysport.fr/wp-content/uploads/2015/12/slide-3.jpg
+[asic]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-asics1.png
+[adidas]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-adiddas-1.png
+[adidas flower]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-adidas.png
+[reebook]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-reebok.png
+[puma]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-puma.png
+[nike]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-nike1.png
+[lacoste]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-lacoste1.png
+[gstar]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-gstart.png
+[diesel]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-diesel.png
+[levis]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-levis.png
+[girl sportive]: http://www.citysport.fr/wp-content/uploads/2016/03/asics.jpg
+[logo]: http://www.citysport.fr/wp-content/uploads/2015/10/logo-citysport.png
+
+---------Material-icons---------
+
+nous allons utiliser des icons de google qui sont libre de droit
+
+[google material] <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+[house]: <span class="material-icons-outlined">other_houses</span>
+[tag]: <span class="material-icons-outlined">sell</span>
+[trophy]: <span class="material-icons-outlined">emoji_events</span>
