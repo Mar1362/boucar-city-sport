@@ -1,0 +1,73 @@
+/*****
+* J'utilise le principe du Mobile-first qui consiste à coder
+* le site pour un ecran plus petit d'abord puis apres l'etendre 
+* vers des support plus grand
+******/
+
+
+:root{
+    font-size: 16px;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+header{
+    margin-top: 30px;
+}
+header img{
+    width: 140px;
+    height: auto;
+}
+
+nav{
+    /*on a pas le menu lorsque l'ecran est petit*/
+    display: none;
+}
+
+main{
+    margin-top: 30px;
+}
+
+main > figure{
+    width: 100vw;
+    height: 80vh;
+}
+main > figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section{
+    padding: 5%;
+    margin-top: 30px;
+
+}
+
+section h2{
+    font-family: 'Times New Roman', Times, serif; /*******/
+    font-size: 4rem;
+    font-weight: bold;
+}
+section p{
+    margin-top: 50px;
+    text-align: justify;
+    color: gray;
+    font-size: 1rem;
+}
+.section1{}
+
+.section2{
+    background: black;
+}
+.section2 h2{
+    font-size: 2.8rem;
+    color: white;
+}
