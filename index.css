@@ -197,9 +197,12 @@ section hr{
     border: none;
     font-weight: bold;
     font-size: .8rem;
+    transition: all .8s;
 }
 .section5 form input[type="submit"]:hover{
     cursor: pointer;
+    background-color: rgb(240, 237, 237);
+    color: rgb(77, 76, 76);
 }
 
 
