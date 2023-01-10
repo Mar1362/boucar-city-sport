@@ -92,6 +92,10 @@ section hr{
     border: 1px solid whitesmoke;
     margin-top: 30px;
     position: relative;
+    transition: all 1s;
+}
+.section2 aside:hover, .section2 aside:hover span{
+    background-color: #16b781;
 }
 .section2 aside span{
     margin: 0;
@@ -227,4 +231,48 @@ footer p::before{
     width: 50px;
     margin-right: 10px;
     color: white;
+}
+
+@media only screen and (min-width: 780px) {
+    nav{
+        display: block;
+        margin-top: 40px;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    nav ul li {
+        padding: 6px;
+        border-radius: 10px;
+        transition: all 0.5s;
+    }
+    nav ul li:first-of-type,nav ul li:hover{
+        background-color: #16b781;
+    }
+    nav ul li:first-of-type a, nav ul li:hover a{
+        color: white;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 0.8rem;
+        transition: all .5s;
+    }
+    nav ul li:not(:first-of-type)::before{
+        content: "//";
+        font-size: large;
+        font-weight: bold;
+        position: relative;
+        right: 30%;
+    }
+
+    .section2 div{
+        display: flex;
+        gap: 15px;
+    }
+
+
 }
