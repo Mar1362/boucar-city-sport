@@ -7,6 +7,7 @@
 
 :root{
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 *,
 *::before,
@@ -47,27 +48,180 @@ main > figure img{
 
 section{
     padding: 5%;
-    margin-top: 30px;
+    margin-top: 100px;
 
 }
 
 section h2{
     font-family: 'Times New Roman', Times, serif; /*******/
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 section p{
-    margin-top: 50px;
+    margin-top: 15px;
     text-align: justify;
+    text-align-last: center;
     color: gray;
-    font-size: 1rem;
+    font-size: .9rem;
 }
-.section1{}
+section hr{
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+    height: 5px;
+    background-color: black;
+    border: none;
+}
+.section1 h2{
+    font-size: 3rem;
+}
+.section1 p{
+    margin-top: 60px;
+    text-align-last: left;
+}
 
 .section2{
-    background: black;
+    background: rgb(31, 30, 30);
 }
-.section2 h2{
-    font-size: 2.8rem;
+.section2 *{
+    color: white;
+    text-align-last: center;
+}
+.section2 aside{
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    margin-top: 30px;
+    position: relative;
+}
+.section2 aside span{
+    margin: 0;
+    padding: 10px;
+    font-size: xx-large;
+    border-radius: 50%;
+    transform: translateY(-75%);
+    background-color: rgb(31, 30, 30);
+}
+
+.section3 {
+    padding: 0;
+}
+.section3 p, .section3 ul{
+    padding: 5%;
+}
+.section3 ul{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.section3 ul li{
+    list-style-type: none;
+    opacity: .5;
+}
+.section3 ul li:first-child{
+    opacity: 1;
+}
+.section3 ul li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.section3 figure{
+    width: 100vw;
+}
+.section3 figure img{
+    width: 100%;
+    height: auto;
+}
+
+.section4{
+    padding: 0;
+}
+.section4 p{
+    padding: 5%;
+}
+.section4 figure{
+    width: 100vw;
+}
+.section4 figure img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section5 address{
+    margin-top: 40px;
+}
+.section5 address p{
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+.section5 address p > *{
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.section5 form{
+    margin-top: 30px;
+}
+.section5 form div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.section5 form div > *{
+    width: max(40%, 400px);
+}
+.section5 form fieldset{
+    border: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.section5 form fieldset > input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 3;
+}
+.section5 form input[type="submit"]{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #16b781;
+    border: none;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.section5 form input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+
+footer{
+    background-color: rgb(75, 74, 74);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer p{
+    width: 300px;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+footer p::before{
+    content: "\e6e4";
+    width: 50px;
+    margin-right: 10px;
     color: white;
 }
